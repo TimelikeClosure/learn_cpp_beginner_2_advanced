@@ -1,0 +1,15 @@
+#include <iostream>
+
+#define PI 3.141592625359
+#define PRINT_LOTS_O_LINES PRINT_MANY_LINES ; PRINT_MANY_LINES ; PRINT_MANY_LINES ; PRINT_MANY_LINES
+#define PRINT_MANY_LINES PRINT_LINES ; PRINT_LINES ; PRINT_LINES ; PRINT_LINES
+#define PRINT_LINES PRINT_LINE ; PRINT_LINE ; PRINT_LINE ; PRINT_LINE
+#define PRINT_LINE std::cout << x++ << std::endl
+
+int main(){
+    int x = 1;
+
+    PRINT_LOTS_O_LINES;
+
+    return 0;
+}
