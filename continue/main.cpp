@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(void){
-    unsigned int modulo, max;
+    unsigned int modulo = 3, max = 100;
 
     std::cout << "What number would you like to sum up to? ";
     std::cin >> max;
